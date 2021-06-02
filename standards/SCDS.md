@@ -1,6 +1,5 @@
 # Standard Card Divination System
 ## (SCDS)
-v0.1.2
 
 Tarot card meanings are hard to remember because there are so many, so here is a way to do divination with regular playing cards. Draw a card and use the suit and the number to find out what it means. You can ask a specific question, but it works better to ask about a general topic, like “family”.
 ## Suits:
