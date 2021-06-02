@@ -1,2 +1,2 @@
 # OMUS
-Organization for Mostly Unnecessary Standards
+The Organization for Mostly Unnecessary Standards
