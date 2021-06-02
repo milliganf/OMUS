@@ -5,14 +5,14 @@ v0.1.2
 Tarot card meanings are hard to remember because there are so many, so here is a way to do divination with regular playing cards. Draw a card and use the suit and the number to find out what it means. You can ask a specific question, but it works better to ask about a general topic, like “family”.
 ## Suits:
 * Hearts
-** Good
+  * Good
 * Diamonds
-** Good, could change
+  * Good, could change
 * Spades
-** Bad
+  * Bad
 * Clubs
-** Bad, could change
-Numbers:
+  * Bad, could change
+## Numbers:
 * Ace: Betrayal
 * 2: Showing of trust, opposite of betrayal
 * 3: Gift
@@ -28,19 +28,19 @@ Numbers:
 * King: Very, very important thing
 A joker means to try again later, or that the answer is unclear.
 
-Some sets of cards:
+## Some sets of cards:
 * The relationship set:
-** Draw three cards.
-** The first for relationships with friends
-** The second for relationships with family
-** The third for romantic relationships
+  * Draw three cards.
+  * The first for relationships with friends
+  * The second for relationships with family
+  * The third for romantic relationships
 * The yes or no question set:
-** Ask a yes or no question
-** Draw one card
-** If it is red, yes
-** If it is black, no
+  * Ask a yes or no question
+  * Draw one card
+  * If it is red, yes
+  * If it is black, no
 * The topic set:
-** Ask about a general topic, like “family”, or “the weather”
-** Draw one card
-** That card represents the state of the topic asked about.
+  * Ask about a general topic, like “family”, or “the weather”
+  * Draw one card
+  * That card represents the state of the topic asked about.
 
