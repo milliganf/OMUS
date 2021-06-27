@@ -23,7 +23,7 @@ Tarot card meanings are hard to remember because there are so many, so here is a
 * 10: Long thing
 * Jack: Surprise, unexpected thing
 * Queen: Large change
-* King: Very, very important thing\
+* King: Very, very important thing
 * Joker: Try again later, or the answer is unclear.
 
 ## Some sets of cards:
