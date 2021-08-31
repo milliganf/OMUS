@@ -1,5 +1,6 @@
 # OMUS Library Organization System
 ## OLOS
+### əʊ.ləʊs
 OLOS is a system for sorting library books into categories, thus allowing one to organize them by topic. Each book’s label can be a combination of categories, categories sorted alphabetically, with periods between them. A category consists of at most three layers.
 The kinds of layers are:
 * Main
