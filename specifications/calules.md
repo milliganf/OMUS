@@ -16,7 +16,7 @@ The types are:
 * Chewy (30)
 * Gummy (20)
 * Spicy (10)
-* Savor (0)
+* Savory (0)
 
 The rarenesses are:
 * Common (0)
