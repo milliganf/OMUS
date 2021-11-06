@@ -31,4 +31,5 @@ The sizes are:
 * Regular (20)
 * Large (30)
 * King (40) 
+
 The size of a candy is determined by comparing it to standard candy bars, such as Snickers or Milky Way.
