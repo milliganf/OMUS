@@ -3,7 +3,7 @@
 
 When trading Halloween candy, it is useful to have a system for valuing each item numerically. Each candy can be given a value, in Calules, by finding its types, rareness, and size.
 A candy item's final value is the average of its types, plus its rareness, times its size. There is a standard value for each type, size, and rareness,  but one can make a personalized chart based on their tastes.
-In the case of a personalized chart, instead of the average of an item's types, one can use the highest valued type.
+In the case of a personalized chart, instead of the average of an item's types, one can use the highest or lowest valued type.
 
 The types are:
 * Peanut (100)
