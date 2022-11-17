@@ -15,6 +15,7 @@ This algorithm describes a process to approximate the square root of a number 'x
 		dif : abs (- g newG)
 		g : id newG
 		if (< dif epsilon) iter
+	iter
 	id g :
 ```
 ## Rules
