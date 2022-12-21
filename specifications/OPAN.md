@@ -1,6 +1,6 @@
 # OMUS Parameterized Algorithm Notation
 ## OPAN
-OPAN is a notation for describing parameterized algorithms &mdash; that is, algorithms wherein the procedure may depend on aspects of the context in which the algorithm is being executed. OPAN algorithms, in addition to taking in parameters can return values, allowing the result of one algorithm to be a parameter of another.   
+OPAN is a notation for describing parameterized algorithms &mdash; that is, algorithms wherein the procedure may depend on aspects of the context in which the algorithm is being executed. OPAN algorithms, in addition to taking in parameters, can return values, allowing the result of one algorithm to be a parameter of another.   
 In OPAN, algorithms are described mainly as a series of actions, with added components to support nested algorithms and variables. In addition to these components, algorithms can specify external actions and names. External actions are processes which are not described in the algorithm, and the executer is expected to already understand how to do. External names, similarly, are variables the value of which the executer is expected to already know (eg. numbers). Despite obvious similarity to functions (or procedures) in computer programming languages, these external objects allow OPAN to be used to describe any kind of algorithm, including those used by computers, but also those used by people.
 
 ## Example
