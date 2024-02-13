@@ -16,7 +16,7 @@ The entire identifier—the pronouns in bio—will be referred to as the "pronou
 A pronoun key describes the author's preferred pronouns, and the details of how much they prefer each pronoun to be used to refer to them relative to the others. 
 Any pronoun that appears in the key would be okay with the author to be used, but more preferred ones should generally be used more often, or in more situations. 
 Maybe the author prefers a neopronoun but is also okay with a traditional pronoun and offers that as an alternative, since some people are uncomfortable using neopronouns, for example. 
-Importantly, a pronoun key should generally not include pronouns that the author does not identify with but would prefer to be used around certain people, most likely because they are not out everywhere, that should be a separate conversation.
+Importantly, a pronoun key should generally not include pronouns that the author does not identify with but would prefer to be used around certain people—most likely because they are not out everywhere. That should be a separate conversation.
 
 ## The Structure
 #### This is the normative part  
