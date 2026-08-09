@@ -1,6 +1,5 @@
-# OMUS Semantic Identifiying 1.2.0
+# OMUS Semantic Identifying 2.0.0
 ## SemId
-
 DISCLAIMER: This specification assumes a baseline understanding of personal pronouns. If you do not have that, the aptly-named website [pronouns.org](https://pronouns.org) has some basic information. 
 
 Many see pronouns in bios and are confused not by why they are there but by the details of the pronoun use: does he/they mean he and they equally, or is he preferred over they? 
@@ -21,7 +20,7 @@ Importantly, a pronoun key should generally not include pronouns that the author
 ## The Structure
 #### This is the normative part  
 A pronoun key is wrapped in parentheses, and immediately after the closing parenthesis is the version (or just major version number) of SemId used to write the key. 
-Within the parentheses is an ordered list of sets. Each set is a series of pronoun forms separated using '/' or '+' characters (with no whitespace), and each set in the list is separated using a ',' character, with an optional space between the comma and the next item.  The last element of the list may be separated from the previous one with a '!' instead of a ',', which indicates that the final set is excluded from the preferred pronouns.
+Within the parentheses is an ordered list of sets. Each set is a series of pronoun forms separated using '/' or '+' characters (with no whitespace), and each set in the list is separated using a ',' character, with an optional space between the comma and the next item. The last element of the list may be separated from the previous one with a '!' instead of a ',', which indicates that the final set is excluded from the preferred pronouns.
 No separators ('/', '+', or ',') are allowed at the end of a set or list, only between two items. 
 
 The list is a ranking of the pronouns, with the first listed being the most preferred, and the last listed being least preferred (which is "first" and which is "last" is dependent on the writing direction of the text). 
@@ -35,12 +34,14 @@ Each item in the set is not actually written as a pronoun, of course, but a pron
 For each pronoun that appears in the key, the nominative form of that pronoun must appear and it must be listed before any other forms. All quoted forms of a particular pronoun must be in the same set as each other, and likewise for non-quoted forms. 
 Forms of the same pronoun must not be separated with a '+'. 
 
-The pseudo-forms "any" and "all" may be used, which represent any pronoun which does not have forms listed elsewhere in the key. If both "any" and "all" appear, they must be in the same set. 
-To indicate a preference for no third-person pronouns, leaving the list empty is sufficient (i.e. "```()1```"), but the pseudo-form "no pronouns" may be used instead. If this pseudo-form appears, no other forms may appear in the key.
+The pseudo-forms "any" and "all" may be used, which represent any pronoun which does not have forms listed elsewhere in the key. If both "any" and "all" appear, they must be in the same set.
+The pseudo-form "neos" may be used to represent all neopronouns not listed elsewhere. Neopronouns are defined as pronouns other than he/him, she/her, they/them, and it/its. The pseudo-form "xenos" may be used to represent all xenopronouns not listed elsewhere. Xenopronouns are defined as pronouns for which the nominative form is also a noun, such as cat/catself.
+To indicate a preference for no third-person pronouns, leaving the list empty is sufficient (i.e. "```()2```"), but the pseudo-form "no pronouns" may be used instead. If this pseudo-form appears, it must be in the most preferred set, which must not include any other forms.
+Any sequence of characters not including '\*' may be surrounded with '\*' to use that sequence as a form. Within a pair of \*s, '\\\*' may be used to represent the literal character '\*' and '\\\\' may be used to represent the literal character '\\'. For instance "\*neos\*" could indicate the form neos of the pronoun neo/neos, "\*,\*" could indicate the form , of the pronoun ,/,s, or "\*\\\\\\\*?\* could indicate the form \\\*? of the pronoun \\\*?/\\\*?s.
 
 ## Examples
-- Basic non-Semantic pronoun keys need little addition to become SemIds: "```(he/him)1```" and "```(they/them)1```" are perfectly fine makeovers of "he/him" and "they/them"
-- The aforementioned "he/they" can be clarified as either "```(he/they)1```" for equal preference, "```(he,they)1```" for he being preferred over they, or "```(he+they)1```" for equal preference and preference for them being used equally
-- The rather common "they/he" often refers to "```(they,he)1```" where they is preferred over he, but could also mean "```(they/he)1```" where they are equally preferred (or even "```(they+he)1```")
-- For a more complicated example, consider: "```(they,she/he,any)1```", where any pronouns may be used, but they/them pronouns are most preferred, she/her and he/him are in the middle, and everything else is less preferred
-- An example of quoted pronouns: "```("he",she,he)1```". This indicates that for close friends, he/him is preferred over she/her, but for others she/her is for preferred and he/him is allowed but less preferable.
+- Basic non-Semantic pronoun keys need little addition to become SemIds: "```(he/him)2```" and "```(they/them)2```" are perfectly fine makeovers of "he/him" and "they/them"
+- The aforementioned "he/they" can be clarified as either "```(he/they)2```" for equal preference, "```(he,they)2```" for he being preferred over they, or "```(he+they)2```" for equal preference and preference for them being used equally
+- The rather common "they/he" often refers to "```(they,he)2```" where they is preferred over he, but could also mean "```(they/he)2```" where they are equally preferred (or even "```(they+he)2```")
+- For a more complicated example, consider: "```(they,she/he,any)2```", where any pronouns may be used, but they/them pronouns are most preferred, she/her and he/him are in the middle, and everything else is less preferred
+- An example of quoted pronouns: "```("he",she,he)2```". This indicates that for close friends, he/him is preferred over she/her, but for others she/her is for preferred and he/him is allowed but less preferable.
