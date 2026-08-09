@@ -1,4 +1,4 @@
-# OMUS Semantic Identifiying 1.1.0
+# OMUS Semantic Identifiying 1.2.0
 ## SemId
 
 DISCLAIMER: This specification assumes a baseline understanding of personal pronouns. If you do not have that, the aptly-named website [pronouns.org](https://pronouns.org) has some basic information. 
@@ -21,7 +21,7 @@ Importantly, a pronoun key should generally not include pronouns that the author
 ## The Structure
 #### This is the normative part  
 A pronoun key is wrapped in parentheses, and immediately after the closing parenthesis is the version (or just major version number) of SemId used to write the key. 
-Within the parentheses is an ordered list of sets. Each set is a series of pronoun forms separated using '/' or '+' characters (with no whitespace), and each set in the list is separated using a ',' character, with an optional space between the comma and the next item. 
+Within the parentheses is an ordered list of sets. Each set is a series of pronoun forms separated using '/' or '+' characters (with no whitespace), and each set in the list is separated using a ',' character, with an optional space between the comma and the next item.  The last element of the list may be separated from the previous one with a '!' instead of a ',', which indicates that the final set is excluded from the preferred pronouns.
 No separators ('/', '+', or ',') are allowed at the end of a set or list, only between two items. 
 
 The list is a ranking of the pronouns, with the first listed being the most preferred, and the last listed being least preferred (which is "first" and which is "last" is dependent on the writing direction of the text). 
