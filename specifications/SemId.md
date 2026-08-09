@@ -1,4 +1,4 @@
-# OMUS Semantic Identifiying 1.0.0
+# OMUS Semantic Identifiying 1.1.0
 ## SemId
 
 DISCLAIMER: This specification assumes a baseline understanding of personal pronouns. If you do not have that, the aptly-named website [pronouns.org](https://pronouns.org) has some basic information. 
@@ -29,9 +29,11 @@ All the pronouns within the same set are preferred equally, all at the ranking c
 Items in the same set separated by a '+' are still preferred equally, but also are specifically preferred to be used roughly equal amounts, while with items separated by a '/', a speaker may for example choose to use only one and ignore the other. 
 The same set may contain some items separated by a '+' and some by a '/'. 
 
-Each item in the set is not actually written as a pronoun, of course, but a pronoun *form*. The same pronoun form must not appear more than once anywhere in the key. 
-For each pronoun that appears in the key, the nominative form of that pronoun must appear and it must be listed before any other forms, and all forms of the pronoun must be in the same set. 
-Forms of the same pronoun must be separated with a '/', not a '+'. 
+Any portion of a set which would be a syntactically valid set on its own may be wrapped in '"', indicating that the enclosed pronouns are only available to close friends.
+
+Each item in the set is not actually written as a pronoun, of course, but a pronoun *form*. The same pronoun form must not appear more than once in quotes, or more than once outside of quotes. 
+For each pronoun that appears in the key, the nominative form of that pronoun must appear and it must be listed before any other forms. All quoted forms of a particular pronoun must be in the same set as each other, and likewise for non-quoted forms. 
+Forms of the same pronoun must not be separated with a '+'. 
 
 The pseudo-forms "any" and "all" may be used, which represent any pronoun which does not have forms listed elsewhere in the key. If both "any" and "all" appear, they must be in the same set. 
 To indicate a preference for no third-person pronouns, leaving the list empty is sufficient (i.e. "```()1```"), but the pseudo-form "no pronouns" may be used instead. If this pseudo-form appears, no other forms may appear in the key.
@@ -41,3 +43,4 @@ To indicate a preference for no third-person pronouns, leaving the list empty is
 - The aforementioned "he/they" can be clarified as either "```(he/they)1```" for equal preference, "```(he,they)1```" for he being preferred over they, or "```(he+they)1```" for equal preference and preference for them being used equally
 - The rather common "they/he" often refers to "```(they,he)1```" where they is preferred over he, but could also mean "```(they/he)1```" where they are equally preferred (or even "```(they+he)1```")
 - For a more complicated example, consider: "```(they,she/he,any)1```", where any pronouns may be used, but they/them pronouns are most preferred, she/her and he/him are in the middle, and everything else is less preferred
+- An example of quoted pronouns: "```("he",she,he)1```". This indicates that for close friends, he/him is preferred over she/her, but for others she/her is for preferred and he/him is allowed but less preferable.
